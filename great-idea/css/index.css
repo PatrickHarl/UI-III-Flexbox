@@ -364,3 +364,13 @@ header {
 
 
   }
+
+  @media only screen and (max-width: 1000px) {
+
+	.learn-more-tab {
+
+		width:100%;
+
+	}
+
+  }
