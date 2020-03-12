@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -64,3 +65,312 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+.website {
+
+	width:50%;
+	margin:0 auto;
+
+}
+
+.nav-links{
+
+	
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+	
+	
+
+}
+.nav-links a{
+
+	color:grey;
+	text-decoration:none;
+	
+
+}
+.nav-links a:hover{
+
+	animation-name:nav-anim;
+	animation-duration: 1.5s;
+	  
+
+}
+
+.logo {
+
+	
+	width:100%;
+	height:3.5vh;
+	padding-top:3px;
+	
+	
+
+}
+header {
+
+	display:flex;
+
+}
+.page-header {
+
+	
+	width:50%;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+	padding-top:30px;
+	
+
+}
+.page-header h1 {
+
+	font-size:75px;
+	text-align:center;
+	
+
+}
+.start-button {
+
+	border:1px solid grey;
+	width:125px;
+	text-align:center;
+	margin:0 auto;
+	padding:3px 0px;
+
+}
+.header-img {
+
+
+	
+	padding-top:50px;
+	padding-left:95px;
+	width:50%;
+	
+
+}
+
+.mid-section-info {
+
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	margin-top:70px;
+
+}
+
+.mid-section-top {
+
+
+	display:flex;
+
+}
+.features {
+
+
+	width:50%;
+	padding:30px 10px 30px 0px;
+	
+
+}
+.about {
+
+	
+	width:50%;
+	padding:30px 10px 30px 25px;
+	
+
+}
+.middle-img {
+
+	
+	width:100%;
+
+}
+.mid-section-bot {
+
+
+	display:flex;
+	justify-content:space-between;
+
+}
+.services {
+
+	
+	padding:30px 0px 30px 0px;
+	width:33.3%;
+	
+	
+
+}
+
+.product {
+
+	
+	padding:30px 0px 30px 0px;
+	width:33.3%;
+	
+	
+
+}
+.vision {
+
+	
+	padding:30px 0px 30px 0px;
+	width:33.3%;
+	
+	
+
+}
+.contact {
+
+	padding-top:30px;
+
+}
+.copywrite {
+
+
+		text-align:center;
+		margin-top:50px;
+
+}
+
+@keyframes nav-anim {
+	0% {color: grey;}
+	50% {color: #1871ff;}
+	100% {color:grey;}
+  }
+
+  /* Services css below */
+
+  .window-services {
+
+	width:46%;
+	margin:0 auto;
+
+  }
+  .header-top-wrapper {
+
+
+	
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom:12px;
+	margin-top:12px;
+	
+
+  }
+  .header-top-wrapper a {
+
+	text-decoration:none;
+	color:grey;
+
+  }
+  .services-header-img {
+
+	width:100%;
+
+  }
+  .services-title {
+
+	margin:20px 0px 15px 0px;
+
+  }
+  .services-title h1{
+
+	font-size:22px;
+
+  }
+  .services-title p {
+
+	margin-bottom:35px;
+
+  }
+  .learn-more {
+
+	width:100%;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	padding-top:35px;
+	
+	
+
+  }
+  .learn-more-tab {
+
+	width:48%;
+	border:1px solid grey;
+	padding:20px 15px 15px 15px;
+	margin-bottom:35px;
+	background-color:#ebe9e7;
+
+  }
+  .learn-more-btn {
+
+		display:flex;
+		border:1px solid grey;
+		width:32%;
+		font-size:12px;
+		padding:7px 0px;
+		background-color:white;
+		border-radius:4px;
+		margin-top:17px;
+		justify-content: center;
+		align-content: center;
+
+  }
+  ul {
+
+	list-style-type:square;
+
+  }
+  .window-services footer {
+
+	display:flex;
+	margin-top:35px;
+
+  }
+  .text-footer {
+
+	
+	
+	padding-right:50px;
+
+  }
+  .list {
+
+	padding-top:25px;
+	padding-left:20px;
+
+  }
+  li {
+
+	line-height:1.8;
+
+  }
+  .copyright {
+
+	text-align:center;
+	margin-top:75px;
+
+
+  }
+
+  @media only screen and (max-width: 1000px) {
+
+	.learn-more-tab {
+
+		width:100%;
+
+	}
+
+  }
